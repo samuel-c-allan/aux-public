@@ -20,4 +20,4 @@ Git body
 4. If you want you may also keep a "bleeding edge" branch (like `latest`) where you merge changes from latest features (which must still be on separate branches). `latest` can then merge to main every now and then. But never write to `main` or `latest` branches directly
 
 ## Javascript
-Please make sure to use the eslint linked in this repository. Your editor should be able to seamlessly plug into it (see the file).
+Please make sure to use the eslint linked in this repository. Your editor should be able to seamlessly plug into it (see the [.eslintrc.js](.eslintrc.js) file).
