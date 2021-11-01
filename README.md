@@ -15,7 +15,7 @@ Git body
 
 ### Branches
 1. Always keep the main branch stable with high quality code, if you are implementing a new feature / fixing things do one of the following:
-2. **Encouraged** Create a separate temporary branch for the issue / feature (e.g. `segfault-fix` for fixing a segfault, `new-xyz-api` for new xyz api, etc), test and complete it there, then merge to main and **delete the branch**.
+2. **Encouraged** Create a separate temporary branch for the issue / feature (e.g. `segfault-fix` for fixing a segfault, `new-xyz-api` for new xyz api, etc), test and complete it there, then merge to main and **delete the branch**. If the feature is big and will take a while to implement, please **push the branch to the server** otherwise feel free to leave it as a local branch
 3. **Discouraged** You may also keep a dev branch for all dev tasks but I strongly discourage this. It has several disadvantages. You can't cleanly implement several different features at the same time, different people can't implement different features at the same time and you have to keep syncing it with the main branch
 4. If you want you may also keep a "bleeding edge" branch (like `latest`) where you merge changes from latest features (which must still be on separate branches). `latest` can then merge to main every now and then. But never write to `main` or `latest` branches directly
 
