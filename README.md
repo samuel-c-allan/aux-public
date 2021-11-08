@@ -10,8 +10,9 @@ Git body
 ```
 
 2. Keep the title short but somewhat specific
-3. Give as much specific detail in the body as possible. Make sure that when someone who looks at the commit and are familiar with the codebase can tell what happened without looking at the code (obviously not more than 3 lines but enough to get a gist of what happened)
+3. Give as much specific detail in the body as possible. Make sure that when someone who looks at the commit and is familiar with the codebase can tell what happened without looking at the code (obviously not more than 3 lines but enough to get a gist of what happened)
 4. When convenient try to make commits smaller, more atomic. But this is not a requirement
+5. When convenient also try to make commits stable (the whole thing works more or less, commits never completely break the program). Also not a requirement
 
 ### Branches
 1. Always keep the main branch stable with high quality code, if you are implementing a new feature / fixing things do one of the following:
